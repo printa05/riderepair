@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehicle_types">
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Truck</item>
+        <item>Bus</item>
+    </string-array>
+</resources>

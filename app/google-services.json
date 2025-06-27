@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201771039998",
+    "project_id": "riderepair-b21d3",
+    "storage_bucket": "riderepair-b21d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201771039998:android:2fca1e0145265d7977f9af",
+        "android_client_info": {
+          "package_name": "com.example.riderepair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_uWBY70j9-AY1cHy0aI62eeQVUD69U4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

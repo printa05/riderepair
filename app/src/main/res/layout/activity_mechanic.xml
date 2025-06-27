@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".mechanic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+<Spinner
+    android:id="@+id/spinnerFilter"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+<LinearLayout
+    android:id="@+id/sosContainer"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@id/spinnerFilter"
+    app:layout_constraintBottom_toTopOf="@id/btnAddGarage"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp" />
+
+<Button
+    android:id="@+id/btnAddGarage"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Add Garage"
+    app:layout_constraintBottom_toTopOf="@id/btnSettings"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginBottom="8dp" />
+
+<Button
+    android:id="@+id/btnSettings"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Settings"
+    app:layout_constraintBottom_toTopOf="@id/btnLogout"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginBottom="8dp" />
+
+<Button
+    android:id="@+id/btnLogout"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Logout"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+</tools:androidx.constraintlayout.widget.ConstraintLayout>
