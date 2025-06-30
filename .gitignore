@@ -1,1 +1,6 @@
  .gradle/ .idea/ build/ local.properties.gradle/ *.iml *.apk .DS_Store *.keystore
+*.aab
+/build/
+*/build/
+*.log
+*.jks
